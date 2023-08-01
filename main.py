@@ -58,4 +58,5 @@ if __name__ == "__main__":
             if extracted not in content:
                 store(extracted)
                 send_email(message="Hey, New event was found!")
+        time.sleep(2)
 
